@@ -5,6 +5,7 @@ import Typed from 'typed.js';
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import Link from 'next/link';
 
 export default function Home() {
   const el = useRef(null);
@@ -60,7 +61,64 @@ export default function Home() {
                 <FiGithub className='text-[16px]' />
               </a>
             </div>
+
           </div>
+
+          {/** Code Area */}
+          <article className="mt-3 prose md:mt-4 md:prose-lg dark:prose-dark ">
+            <div>
+              <pre>
+                <code className="language-js">
+                  <div className="flex items-center py-0 my-0 space-x-4 text-gray-500">
+                    <span>// Portfolio.js </span>
+                  </div>
+                  <p>
+                    <span className="text-gray-500">//</span>{" "}
+                    <span className="text-purple-300">Todo:</span> You can drag
+                    these balloons I'm really in love with them 🎈🎈
+                  </p>
+
+                  <div className="flex items-center space-x-4">
+                    <img
+                      src="https://avatars.githubusercontent.com/u/77159288?v=4"
+                      alt="Me"
+                      className="w-10 h-10 rounded-full"
+                    />
+
+                    <div className="">
+                      <p className="text-sm">
+                        <span className="text-pink-300"> {">"} </span> const
+                        techWeb
+                        <span className="font-bold text-pink-300">2</span> =
+                        ["Reactjs", "Nextjs", "Graphql", "Nodejs"];{" "}
+                      </p>
+                      <p className="text-sm">
+                        <span className="text-pink-300"> {">"} </span> const
+                        techWeb
+                        <span className="font-bold text-pink-300">3</span> =
+                        ["Solidity", "Web3.js", "Ethers.js"];{" "}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center space-x-8">
+                    <Link href="/projects">
+                      <span className="transition duration-300">Projects</span>
+                    </Link>
+
+                    <a
+                      href="https://www.youtube.com/@mseroglu47"
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                      className="transition duration-300"
+                    >
+                      Youtube
+                    </a>
+                  </div>
+                </code>
+              </pre>
+            </div>
+          </article>
         </section>
       </main>
     </Layout>
