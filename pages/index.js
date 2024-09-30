@@ -2,8 +2,7 @@ import Layout from '../components/Layout'
 import { motion } from 'framer-motion'
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import Link from 'next/link';
 
