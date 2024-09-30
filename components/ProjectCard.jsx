@@ -11,7 +11,7 @@ const ProjectCard = ({ project: { id, title, description, sourceCode, tags, imag
          whileHover={{ scale: 1.05, transition: { duration: .4 } }}
       >
          <div className="w-full h-full p-4 bg-white rounded-lg dark:bg-gray-700">
-            <div className="flex flex-col items-center justify-between gap-5">
+            <div className="flex flex-col items-center justify-between gap-5 h-full">
                <div className="flex flex-col items-center ">
                   <img src={image[0].url} alt={title} className="object-cover w-full rounded-lg max-h-64" />
                   <h2 className="text-2xl font-semibold mt-3">{title}</h2>
