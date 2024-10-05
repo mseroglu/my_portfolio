@@ -89,13 +89,13 @@ export default function Home() {
                         <span className="text-pink-300"> {">"} </span> const
                         techWeb
                         <span className="font-bold text-pink-300">2</span> =
-                        `["Reactjs", "Nextjs", "Graphql", "Nodejs"]`;{" "}
+                        ["Reactjs", "Nextjs", "Graphql", "Nodejs"];{" "}
                       </p>
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span> const
                         techWeb
                         <span className="font-bold text-pink-300">3</span> =
-                        `["Solidity", "Web3.js", "Ethers.js"]`;{" "}
+                        ["Solidity", "Web3.js", "Ethers.js"];{" "}
                       </p>
                     </div>
                   </div>
