@@ -40,7 +40,8 @@ export default function Home() {
         <section className='h-full max-w-5xl mx-auto pt-16 md:pt-8'>
           <div className='flex flex-col items-center justify-center md:items-start text-gray-800 dark:text-white'>
             <h4 className='text-xl'>
-              <span className='font-normal'>Hello,</span> I'm
+              <span className='font-normal'>Hello,</span> 
+              I'm
             </h4>
             <h1 className='mt-3 text-xl font-bold tracking-normal md:text-3xl uppercase'>
               MEHMET SALİH EROĞLU
@@ -69,7 +70,7 @@ export default function Home() {
               <pre>
                 <code className="language-js">
                   <div className="flex items-center py-0 my-0 space-x-4 text-gray-500">
-                    <span>// Portfolio.js </span>
+                    <span> Portfolio.js </span>
                   </div>
                   <p>
                     <span className="text-gray-500">//</span>
