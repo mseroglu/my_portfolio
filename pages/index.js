@@ -39,8 +39,8 @@ export default function Home() {
       <main className='w-full h-full ' >
         <section className='h-full max-w-5xl mx-auto pt-16 md:pt-8'>
           <div className='flex flex-col items-center justify-center md:items-start text-gray-800 dark:text-white'>
-            <h4 className='text-xl '>
-              <span className=' font-normal '>Hello,</span> I'm
+            <h4 className='text-xl'>
+              <span className='font-normal'>Hello,</span> I'm
             </h4>
             <h1 className='mt-3 text-xl font-bold tracking-normal md:text-3xl uppercase'>
               MEHMET SALİH EROĞLU
@@ -72,7 +72,7 @@ export default function Home() {
                     <span>// Portfolio.js </span>
                   </div>
                   <p>
-                    <span className="text-gray-500">//</span>{" "}
+                    <span className="text-gray-500">//</span>
                     <span className="text-purple-300">Todo:</span> You can drag
                     these balloons I'm really in love with them 🎈🎈
                   </p>
